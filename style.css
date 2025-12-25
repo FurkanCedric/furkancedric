@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section, main {
+    padding: 20px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+/* Fotoğrafın boyutu ve çerçevesi için */
+.profil {
+    width: 200px;          /* Genişlik */
+    height: auto;         /* Orantılı yükseklik */
+    border: 2px solid #333; /* Etrafına basit bir siyah çerçeve */
+    margin-bottom: 15px;  /* Altındaki yazı ile mesafe */
+    display: block;       /* Ortalamak için gerekli */
+    margin-left: auto;    /* Ortalamak için sol boşluk */
+    margin-right: auto;   /* Ortalamak için sağ boşluk */
+}
